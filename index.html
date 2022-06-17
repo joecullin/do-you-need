@@ -31,8 +31,14 @@
             }
             if (answerKey === "code"){
                 answer = "I'm testing this on a mac with a file:/// url, in my /code dir.";
+                answer = "Well maybe *need* is too strong, but it's definitely really nice to have.";
             }
         }
+        tech = tech.replace(/-/g, " ");
+        if (tech === ""){
+            tech = "some online stranger telling you what you need";
+        }
+
         console.log(`tech: ${tech} answer: ${answer}`);
 
         const techSpan = document.querySelector('#tech-text');
@@ -54,9 +60,15 @@
 
     <div class="site-footer">
         <p>
-            Find more great advice from <a href="https://DoYouNeed.tech">DoYouNeed.tech</a>:
+            Do you really need to use that trendy/slick/popular tech that everyone's buzzing about?
+        </p>
+        <p>
+            Use our definitive online resource to help friends & colleagues with their toughest decisions. Our guide provides a clear and simple answer for every possible "do you need X" tech question.
+        </p>
+        <p>
+            More great advice from <a href="https://DoYouNeed.tech">DoYouNeed.tech</a>:
             <ul>
-                <li><a href="/git">git</a></li>
+                <li><a href="/git/articles">git</a></li>
                 <li><a href="/github">github</a></li>
                 <li><a href="/Visual-Studio-Code">VSCode</a></li>
                 <li><a href="/React/guide">React</a></li>
