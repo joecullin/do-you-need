@@ -1,0 +1,43 @@
+body
+{
+  font-family: 'Fira Mono', monospace;
+  background-color: #ffb264;
+}
+
+
+div.question
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  height: 40vh;
+}
+
+span#tech-label
+{
+  text-decoration: underline;
+}
+
+div.answer
+{
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 16px 16px 16px;
+  height: 60vh; /* Don't dilute the message. Push footer below the fold. */
+  p {
+    margin: 0;
+    padding: 8px 0;
+  }
+}
+
+
+div.site-footer
+{
+  border-top: 2px solid #bbb;
+  padding: 16px;
+  p {
+    margin: 0;
+    padding: 8px 0;
+  }
+}
+
