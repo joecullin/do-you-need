@@ -14,13 +14,22 @@
     <script>
     document.addEventListener("DOMContentLoaded", function() {
 
-        let tech = "IT";
-        let answer = "NO.";
+        // Examine the path, and get the tech name.
+        let tech = "";
         const path = window.location.pathname.slice(1);
         const parts = path.split("/");
         if (parts.length){
             tech = parts.shift();
         }
+        // Replace dashes with spaces in the tech name. Should I pick a less-common char?
+        tech = tech.replace(/-/g, " ");
+        // Default for the homepage.
+        if (tech === ""){
+            tech = "some online stranger telling you what you need";
+        }
+
+        // Default answer is no. Other answers can be specified with special path keywords.
+        let answer = "NO.";
         if (parts.length){
             answerKey = parts.shift();
             if (answerKey === "articles"){
@@ -30,13 +39,8 @@
                 answer = "Well maybe *need* is too strong, but it's definitely really nice to have.";
             }
             if (answerKey === "code"){
-                answer = "I'm testing this on a mac with a file:/// url, in my /code dir.";
-                answer = "Well maybe *need* is too strong, but it's definitely really nice to have.";
+                answer = "Testing with a file:/// url, in my /code dir.";
             }
-        }
-        tech = tech.replace(/-/g, " ");
-        if (tech === ""){
-            tech = "some online stranger telling you what you need";
         }
 
         console.log(`tech: ${tech} answer: ${answer}`);
@@ -60,7 +64,7 @@
 
     <div class="site-footer">
         <p>
-            Do you really need to use that trendy/slick/popular tech that everyone's buzzing about?
+            Do you really need to use that trendy/slick/popular tech everyone's buzzing about?
         </p>
         <p>
             Use our definitive online resource to help friends & colleagues with their toughest decisions. Our guide provides a clear and simple answer for every possible "do you need X" tech question.
@@ -68,10 +72,10 @@
         <p>
             More great advice from <a href="https://DoYouNeed.tech">DoYouNeed.tech</a>:
             <ul>
-                <li><a href="/git/articles">git</a></li>
-                <li><a href="/github">github</a></li>
-                <li><a href="/Visual-Studio-Code">VSCode</a></li>
-                <li><a href="/React/guide">React</a></li>
+                <li>Do I need <a href="/git/articles">git</a>?</li>
+                <li>Do I need <a href="/github">github</a>?</li>
+                <li>Do I need <a href="/Visual-Studio-Code">VSCode</a>?</li>
+                <li>Do I need <a href="/React/guide">React</a>?</li>
             </ul>
         </p>
         <p>
