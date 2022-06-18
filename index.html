@@ -19,7 +19,7 @@
         const path = window.location.pathname.slice(1);
         const parts = path.split("/");
         if (parts.length){
-            tech = parts.shift();
+            tech = parts.pop();
         }
         // Replace dashes with spaces in the tech name. Should I pick a less-common char?
         tech = tech.replace(/-/g, " ");
@@ -28,7 +28,7 @@
             tech = "some online stranger telling you what you need";
         }
 
-        // Default answer is no. Other answers can be specified with special path keywords.
+        // Default answer is no. Other answers can be specified with special path prefix keywords.
         let answer = "NO.";
         if (parts.length){
             answerKey = parts.shift();
@@ -38,8 +38,8 @@
             if (answerKey === "guide"){
                 answer = "Well maybe *need* is too strong, but it's definitely really nice to have.";
             }
-            if (answerKey === "code"){
-                answer = "Testing with a file:/// url, in my /code dir.";
+            if (answerKey === "Volumes"){
+                answer = "Testing with a file:/// url, in my /Volumes/code dir.";
             }
         }
 
@@ -67,15 +67,15 @@
             Do you really need to use that trendy/slick/popular tech everyone's buzzing about?
         </p>
         <p>
-            Use our definitive online resource to help friends & colleagues with their toughest decisions. Our guide provides a clear and simple answer for every possible "do you need X" tech question.
+            Use our definitive online resource to help friends &amp; colleagues with their toughest decisions. Our guide provides a clear and simple answer for every possible "do you need X" tech question.
         </p>
         <p>
             More great advice from <a href="https://DoYouNeed.tech">DoYouNeed.tech</a>:
             <ul>
-                <li>Do I need <a href="/git/articles">git</a>?</li>
+                <li>Do I need <a href="/articles/git">git</a>?</li>
                 <li>Do I need <a href="/github">github</a>?</li>
                 <li>Do I need <a href="/Visual-Studio-Code">VSCode</a>?</li>
-                <li>Do I need <a href="/React/guide">React</a>?</li>
+                <li>Do I need <a href="/guide//React">React</a>?</li>
             </ul>
         </p>
         <p>
