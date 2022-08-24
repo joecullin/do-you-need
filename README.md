@@ -14,7 +14,7 @@ Here's an incomplete list of similar sites I've seen. Submit a pull request or e
 - http://doyouneedablockchain.com/
 - https://shouldiusethreads.com/
 - https://www.shouldiuseajsonbfield.com/
-
+- https://covidstandardtime.com/
 
 # Notes
 
