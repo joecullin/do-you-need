@@ -2,7 +2,7 @@
   
 I love that people buy a whole domain just to put up a one-word joke.
 
-Thought this would be a fun twist. More flexible and more comprehensive, it has answer(s) for every tech you can think of. Make sure you scroll down and explore a bit, to see what I mean.
+This site is a little more flexible and a lot more comprehensive, but just as succinct. It has answers for every tech you can think of.
 
 Here's an incomplete list of similar sites I've seen. Submit a pull request or email me if you want to add more.
 
