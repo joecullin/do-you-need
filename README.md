@@ -15,7 +15,10 @@ Here's an incomplete list of similar sites I've seen. Submit a pull request or e
 - https://shouldiusethreads.com/
 - https://www.shouldiuseajsonbfield.com/
 - https://covidstandardtime.com/
+- https://www.solvedbyblockchain.com/
+- https://en.wikipeda.co/wiki/Joe_Cullin
 
 # Notes
 
-Thanks https://hexwords.netlify.app/ for the semantic hex colors. Background is `#DEC1DE`.
+- Thank you https://hexwords.netlify.app/ for the semantic hex colors. Background is `#DEC1DE`.
+- Thank you https://langworth.com/ for additions to the list!
