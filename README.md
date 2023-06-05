@@ -6,6 +6,7 @@ This site is a little more flexible and a lot more comprehensive, but just as su
 
 Here's an incomplete list of similar sites I've seen. Submit a pull request or email me if you want to add more.
 
+- https://shouldirollback.com/
 - https://shouldibuyannft.com/
 - https://doyouneedkubernetes.com/
 - https://shouldiblamecaching.com/
