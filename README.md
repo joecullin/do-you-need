@@ -23,3 +23,7 @@ Here's an incomplete list of similar sites I've seen. Submit a pull request or e
 
 - Thank you https://hexwords.netlify.app/ for the semantic hex colors. Background is `#DEC1DE`.
 - Thank you https://langworth.com/ for additions to the list!
+
+# Bye!
+
+In June 2023 this domain registration will expire. Like so many of the sites above, the joke will be short-lived. I got the domain cheap. It was either $.99 or free, I can't remember. Renewal is $50/year and definitely not worth it. I've never bothered setting up analytics or even looking at web server logs to measure traffic. I doubt anyone will care when this site goes away, but if you miss it, feel free to take the code and/or the domain!
